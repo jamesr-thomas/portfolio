@@ -1,18 +1,8 @@
 @import "tailwindcss";
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-}
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-.dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
 }
 
 body {
@@ -53,8 +43,4 @@ html {
 
 ::selection {
   background: rgba(139, 92, 246, 0.3);
-}
-
-.dark ::selection {
-  background: rgba(139, 92, 246, 0.5);
 }

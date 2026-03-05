@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Palette, Lightbulb } from "lucide-react";
+import { Shield, Code, Server } from "lucide-react";
 
 const skills = [
-  { icon: Code, name: "Development", desc: "Building robust applications" },
-  { icon: Palette, name: "Design", desc: "Creating beautiful interfaces" },
-  { icon: Lightbulb, name: "Innovation", desc: "Solving complex problems" },
+  { icon: Shield, name: "Cybersecurity", desc: "Protecting systems and networks" },
+  { icon: Code, name: "Development", desc: "Building secure applications" },
+  { icon: Server, name: "IT Infrastructure", desc: "Managing and securing infrastructure" },
 ];
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
             </span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            I&apos;m a passionate developer who loves creating elegant solutions to complex problems.
+            IT professional passionate about cybersecurity and building secure, reliable solutions.
           </p>
         </motion.div>
 
@@ -60,9 +60,9 @@ export default function About() {
           className="mt-16 p-8 rounded-2xl bg-gradient-to-r from-violet-50 to-indigo-50 dark:from-violet-900/20 dark:to-indigo-900/20"
         >
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            With years of experience in web development, I specialize in building responsive,
-            user-friendly applications that make a difference. I believe in continuous learning
-            and staying up-to-date with the latest technologies to deliver the best results.
+            With experience in IT and cybersecurity, I specialize in building secure applications,
+            implementing robust security measures, and solving complex technical challenges.
+            I continuously learn and stay updated with the latest security practices and technologies.
           </p>
         </motion.div>
       </div>

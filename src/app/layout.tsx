@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import Navigation from "@/components/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "James Thomas | Creative Developer",
-  description: "Portfolio of James Thomas - Creative Developer & Designer crafting beautiful digital experiences",
+  title: "James Thomas | IT Professional & Software Developer",
+  description: "Portfolio of James Thomas - IT Professional & Software Developer specializing in cybersecurity",
 };
 
 export default function RootLayout({
@@ -17,17 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body className={`${inter.className} antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Navigation />
-          {children}
-        </ThemeProvider>
+        <Navigation />
+        {children}
       </body>
     </html>
   );
