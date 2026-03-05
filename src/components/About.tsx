@@ -60,9 +60,7 @@ export default function About() {
           className="mt-16 p-8 rounded-2xl bg-gradient-to-r from-violet-50 to-indigo-50 dark:from-violet-900/20 dark:to-indigo-900/20"
         >
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            With experience in IT and cybersecurity, I specialize in building secure applications,
-            implementing robust security measures, and solving complex technical challenges.
-            I continuously learn and stay updated with the latest security practices and technologies.
+          Looking for first opportunities in IT or Security spaces.
           </p>
         </motion.div>
       </div>
