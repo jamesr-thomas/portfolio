@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, FileText, Shield, Code, Server } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/jamesr-thomas", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/james-thomas-930ba73b4/", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:james.russ.thomas@proton.me", label: "Email" },
 ];
 
 const skills = [
